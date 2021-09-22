@@ -1,11 +1,14 @@
+#header{position:fixed;width:100%;top:0;}
+#header2{position:fixed;width:100%;top:20;overflow-y:scroll;height:100%;}
+
 *{margin: 0;padding: 0;box-sizing: border-box;}
-body{background: #000;font-family: 'Ubuntu', sans-serif;}
+body{background:#000;font-family: 'Ubuntu', sans-serif;}
 .tabs {background-color: #111111;overflow: auto;white-space: nowrap;color:#fff;display: flex;list-style-type: none;margin: 0;padding: 0;border-bottom: 1px solid white;}
-.card{overflow-x: scroll;overflow-y: hidden;margin: 3px;}
+div .poster{overflow-x: scroll;overflow-y: hidden;margin:2px;}
 play{left:0;right:0;height:3.5em;display:flex;flex-direction:row;
 align-items:center;justify-content:space-between;}
 .category_list{display: flex;flex-direction: column;width: 18%;}
-.category_list .category_item{display: flex;width: 90%;padding: 12px;background:#202020;text-align: center;text-decoration: none;color: #fff;}
+.category_list .category_item{display: flex;width: 90%;padding: 10px;background:#202020;text-align: center;text-decoration: none;color: #fff;}
 .category_list .ct_item-active{background: #E50914;}
 /* RESPONSIVE */
 @media screen and (max-width: 900px){.category_list{width: 100%;}.category_list{flex-direction: row;justify-content: space-between;}.category_list .category_item{align-self: flex-start;width: 15%;font-size: 20px;}}
